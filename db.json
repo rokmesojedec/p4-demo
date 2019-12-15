@@ -1,0 +1,442 @@
+{
+    "data": {
+        "airplane": {
+            "name": "Airplane",
+            "speed": 720,
+            "CO2pkm": 285,
+            "cost": 0.43,
+            "prefix": "A",
+            "icon": "fa-plane",
+            "class": "airplane"
+        },
+        "bus": {
+            "name": "Bus",
+            "speed": 17.7,
+            "CO2pkm": 68,
+            "cost": 0.05,
+            "prefix": "Bu",
+            "icon": "fa-bus",
+            "class": "bus"
+        },
+        "bicycle": {
+            "name": "Bicycle",
+            "speed": 20,
+            "CO2pkm": 0,
+            "cost": 0,
+            "prefix": "Bi",
+            "icon": "fa-bicycle",
+            "class": "bicycle"
+        },
+        "car": {
+            "name": "Car",
+            "speed": 50,
+            "CO2pkm": 55,
+            "cost": 0.34,
+            "prefix": "C",
+            "icon": "fa-car",
+            "class": "car"
+        },
+        "escooter": {
+            "name": "E-Scooter",
+            "speed": 18,
+            "CO2pkm": 0,
+            "cost": 0.002,
+            "prefix": "Es",
+            "icon": "fa-motorcycle",
+            "class": "escooter"
+        },
+        "train": {
+            "name": "Train",
+            "CO2pkm": 14,
+            "speed": 100,
+            "cost": 0.136,
+            "prefix": "T",
+            "icon": "fa-train",
+            "class": "train"
+        },
+        "walking": {
+            "name": "Walking",
+            "speed": 3.6,
+            "CO2pkm": 0,
+            "cost": 0,
+            "prefix": "Wk",
+            "icon": "fa-walking",
+            "class": "walk"
+        },
+        "wait": {
+            "name": "Wait",
+            "speed": 0,
+            "CO2pkm": 0,
+            "cost": 0,
+            "prefix": "Wt",
+            "icon": "fa-hourglass",
+            "class": "wait"
+        }
+    },
+    "demo": {
+        "levels": [
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Bus\",\"speed\":17.7,\"CO2pkm\":68,\"cost\":0.05,\"prefix\":\"Bu\",\"icon\":\"fa-bus\",\"class\":\"bus\"}",
+                        "rootNode": true,
+                        "id": 1,
+                        "ddistance": "10"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Car\",\"speed\":50,\"CO2pkm\":55,\"cost\":0.34,\"prefix\":\"C\",\"icon\":\"fa-car\",\"class\":\"car\"}",
+                        "rootNode": true,
+                        "id": 2,
+                        "ddistance": "10"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"E-Scooter\",\"speed\":18,\"CO2pkm\":0,\"cost\":0.002,\"prefix\":\"Es\",\"icon\":\"fa-motorcycle\",\"class\":\"escooter\"}",
+                        "rootNode": true,
+                        "id": 8,
+                        "ddistance": "10"
+                    }
+                ],
+                "title": "Home",
+                "margin": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                }
+            },
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"E-Scooter\",\"speed\":18,\"CO2pkm\":0,\"cost\":0.002,\"prefix\":\"Es\",\"icon\":\"fa-motorcycle\",\"class\":\"escooter\"}",
+                        "rootNode": false,
+                        "id": 3,
+                        "ddistance": "4"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Car\",\"speed\":50,\"CO2pkm\":55,\"cost\":0.34,\"prefix\":\"C\",\"icon\":\"fa-car\",\"class\":\"car\"}",
+                        "rootNode": false,
+                        "id": 5,
+                        "ddistance": "4"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Walking\",\"speed\":3.6,\"CO2pkm\":0,\"cost\":0,\"prefix\":\"Wk\",\"icon\":\"fa-walking\",\"class\":\"walk\"}",
+                        "rootNode": false,
+                        "id": 6,
+                        "ddistance": "4"
+                    }
+                ],
+                "title": "Downtown",
+                "margin": {
+                    "top": "0",
+                    "bottom": "0",
+                    "left": 0,
+                    "right": 0
+                }
+            },
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Train\",\"CO2pkm\":14,\"speed\":100,\"cost\":0.136,\"prefix\":\"T\",\"icon\":\"fa-train\",\"class\":\"train\"}",
+                        "rootNode": false,
+                        "id": 4,
+                        "ddistance": "15"
+                    }
+                ],
+                "title": "Train Station",
+                "margin": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                }
+            },
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Walking\",\"speed\":3.6,\"CO2pkm\":0,\"cost\":0,\"prefix\":\"Wk\",\"icon\":\"fa-walking\",\"class\":\"walk\"}",
+                        "rootNode": false,
+                        "id": 10,
+                        "ddistance": "1"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"E-Scooter\",\"speed\":18,\"CO2pkm\":0,\"cost\":0.002,\"prefix\":\"Es\",\"icon\":\"fa-motorcycle\",\"class\":\"escooter\"}",
+                        "rootNode": false,
+                        "id": 11,
+                        "ddistance": "1"
+                    }
+                ],
+                "title": "Town",
+                "margin": {
+                    "top": "0",
+                    "bottom": "0",
+                    "left": 0,
+                    "right": 0
+                }
+            },
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Wait\",\"speed\":0,\"CO2pkm\":0,\"cost\":0,\"prefix\":\"Wt\",\"icon\":\"fa-hourglass\",\"class\":\"wait\"}",
+                        "rootNode": false,
+                        "id": 13,
+                        "ddistance": 0
+                    }
+                ],
+                "title": "Work",
+                "margin": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                }
+            },
+            {
+                "nodes": [
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Car\",\"speed\":50,\"CO2pkm\":55,\"cost\":0.34,\"prefix\":\"C\",\"icon\":\"fa-car\",\"class\":\"car\"}",
+                        "rootNode": false,
+                        "id": 12,
+                        "ddistance": "40"
+                    },
+                    {
+                        "title": "Untitled Step",
+                        "typeJSON": "{\"name\":\"Bicycle\",\"speed\":20,\"CO2pkm\":0,\"cost\":0,\"prefix\":\"Bi\",\"icon\":\"fa-bicycle\",\"class\":\"bicycle\"}",
+                        "rootNode": false,
+                        "id": 14,
+                        "ddistance": "21"
+                    }
+                ],
+                "title": "Home",
+                "margin": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0
+                }
+            }
+        ],
+        "edges": [
+            {
+                "startNode": "Bu1",
+                "endNode": "Es3",
+                "id": 1,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Bu1",
+                "endNode": "C5",
+                "id": 3,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "C2",
+                "endNode": "Wk6",
+                "id": 4,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "C5",
+                "endNode": "T4",
+                "id": 5,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Wk6",
+                "endNode": "T4",
+                "id": 6,
+                "startPosition": "bottom",
+                "endPosition": "right",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "right"
+                }
+            },
+            {
+                "startNode": "Es3",
+                "endNode": "T4",
+                "id": 7,
+                "startPosition": "bottom",
+                "endPosition": "left",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "left"
+                }
+            },
+            {
+                "startNode": "T4",
+                "endNode": "Wk10",
+                "id": 11,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "T4",
+                "endNode": "Es11",
+                "id": 12,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Wk10",
+                "endNode": "Wt13",
+                "id": 13,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Es11",
+                "endNode": "Wt13",
+                "id": 15,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Wt13",
+                "endNode": "C12",
+                "id": 16,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Wt13",
+                "endNode": "Bi14",
+                "id": 17,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Es8",
+                "endNode": "Wk6",
+                "id": 18,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            },
+            {
+                "startNode": "Es3",
+                "endNode": "Wk10",
+                "id": 19,
+                "startPosition": "bottom",
+                "endPosition": "top",
+                "lineSettings": {
+                    "size": 2,
+                    "color": "#c0c0c0",
+                    "endPlugSize": 1,
+                    "path": "fluid",
+                    "startSocket": "bottom",
+                    "endSocket": "top"
+                }
+            }
+        ]
+    }
+}
